@@ -55,7 +55,7 @@ a{
 }
 a:hover{
     backgound: #B3B3B3;
-    color: #0006CC;
+    color: #ff06CC;
 }
 a:focus{
     background: #B3B3B3;
@@ -63,7 +63,7 @@ a:focus{
 }
 a:active{
     background: #B3B3B3;
-    color: #0006CC;
+    color: rgb(0, 204, 71);
 }
 /*list-style-type
 it can be: lower-roman, upper-roman,decimal, decimal-leading-zero
@@ -75,3 +75,5 @@ ul.class1{
 ul.class2{
     list-style-image: url('imgs/phoenix.png');
 }
+
+
