@@ -43,3 +43,9 @@ Some of often unsupported properties
 - gradient
 -site such as https://caniuse.com/ will tell you
 when you need to use prefixes*/
+
+/*chèn ảnh bị crop tránh ảnh bị stretch*/
+img{
+    object-fit: cover;
+    object-position: 50% 50%;
+}
