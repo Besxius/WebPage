@@ -1,0 +1,77 @@
+header{
+    background-color: darkgray;
+    text-align: center;
+    padding: 10px;
+}
+body{
+    background-color: lightgray;
+    margin: 4%;
+}
+
+h1.header{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+a.header{
+    color: rgb(77, 4, 102);
+}
+nav{
+    font-variant: small-caps;
+    font-size: 150%;
+    font-family: Arial, "Time New Roman", serif;
+    font-weight: bold;
+}
+details{
+    font-style: italic;
+}
+section{
+    width: 30%;
+    display: inline-block;;
+    float: left;
+    margin-right:2%;
+}
+h2{
+    background-color: aquamarine;
+}
+footer{
+    background: darkgray;
+    clear: both;
+}
+img{
+    width: 125px;
+}
+/*note with style anchor tag
+a:hover MUST come after a:link
+a:visited and a:active MUST come after a:hover
+a:link
+a:hover
+a:active,avisited*/
+a{
+    font-weight: bold;
+    color: #ffffff;
+    background: #7e7fa4;
+    margin:0 auto; 
+    text-decoration: none;
+}
+a:hover{
+    backgound: #B3B3B3;
+    color: #0006CC;
+}
+a:focus{
+    background: #B3B3B3;
+    color: #0006CC;
+}
+a:active{
+    background: #B3B3B3;
+    color: #0006CC;
+}
+/*list-style-type
+it can be: lower-roman, upper-roman,decimal, decimal-leading-zero
+upper-alpha, lower-alpha, hebrew, armenian*/
+ul.class1{
+    list-style-type: upper-alpha;
+    list-style-type: square;
+}
+ul.class2{
+    list-style-image: url('imgs/phoenix.png');
+}

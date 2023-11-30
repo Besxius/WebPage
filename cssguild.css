@@ -1,0 +1,45 @@
+/*selec all the anchor links inside a nav tag*/
+nav a{
+    color: #0006CC;
+}
+/*select all the anchor links which must be a child of the nav tag*/
+nav > a{
+    color:#0006CC
+}
+/*select all the elements must be as same level and follow each other*/
+h1+ol{
+    color: #0006CC;
+}
+/*select only the element with id=id1*/
+#id1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*select the element in belong to the class=class1*/
+.class1{
+    font-size: 150%;
+}
+/*select of the anchor link with exact hyper references to info.html*/
+a[href="info.html"]{
+    font-size: 150%;
+}
+/*
+^: match the beginning exactly
+a[href^='https://umich']
+$: match the end exactly
+img[src$='.png']
+*: wildcard
+a[href*='umich'*/
+
+
+/*browser prefix
+-webkit-: Android, Chrome, iOS, Safari
+-moz-:Firefox
+-ms-:Internet Exploxer
+-o-: Oprera
+
+Some of often unsupported properties
+- column-count
+- border-radius
+- gradient
+-site such as https://caniuse.com/ will tell you
+when you need to use prefixes*/
