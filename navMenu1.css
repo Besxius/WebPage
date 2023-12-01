@@ -1,62 +1,32 @@
 body{
-    margin: 0;
-    padding: 0; 
-    background: #ccc;
+    background-color: #F2F2F2;
+    margin: 1%;
+    padding: 1%;
 }
-nav ul{
-    list-style: none;
-    background-color: #444;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-nav li{
-    width: 20%;
-    border-right: 1px solid black;
-    height: 50px;
-    line-height: 50px;
-    font-size: 140%;
-    display: inline-block;
-    margin-right: -4px;
-}
-nav li:last-child{
-    border-right: none;
-}
-nav li li{
-    border-right: none;
+nav{
+    box-sizing: border-box;
+    border: 1px solid #06425C;
+    color: #06425C; 
+    background-color: #FFFFFF;
+    overflow: auto;
+    padding-left: 20px;
 }
 nav a{
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 50px;
+    height: 60px; 
+    color: #FFFFFF;
+    background-color: #486b02;
     text-decoration: none;
-    color: #fff;
-    display: block;
-    padding-left: 15px;
-    transition: .5s background-color;
+    margin: 1% 5% 1% 0;
+    padding: 1% 5%;
+    border-radius: 25px;
+}
+.current{
+    background-color: #800000;
 }
 nav a:hover{
-    background-color: #005f5f;
-}
-nav a.active{
-    background-color: #aaa;
-    color: #444;
-    cursor: default;
-}
-nav li li{
-    font-size: .8em;
-}
-nav > ul > li{
-    text-align: center;
-}
-nav > ul > li > a{
-    padding-left: 0;
-}
-nav li ul{
-    position:absolute;
-    display: none;
-    width: inherit;
-}
-nav li:hover ul{
-    display: block;
-}
-nav li ul li{
-    display: block;
+    color: #000000;
+    border-radius: 0;
 }

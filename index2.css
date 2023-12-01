@@ -76,4 +76,8 @@ ul.class2{
     list-style-image: url('imgs/phoenix.png');
 }
 
-
+@media screen and (max-width: 700px) {
+    a{
+        background-color: red;
+    }
+}
